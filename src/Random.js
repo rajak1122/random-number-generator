@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Randomnumber() {
   const [generated, setgenerated] = useState(true);
-  const [random, setrandom] = useState("0");
+  const [random, setrandom] = useState(" ");
   const rnumber = () => {
     const r = Math.floor(Math.random() * 100 + 1);
     setrandom(r);
